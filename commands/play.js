@@ -51,6 +51,12 @@ module.exports = {
 				dlChunkSize: 0,
 			},
         metadata: interaction.channel,
+	autoSelfDeaf: true,
+	initialVolume: 20,
+	leaveOnEmpty: true,
+	leaveOnEmptyCooldown: 300000,
+	leaveOnEnd: true,
+	leaveOnEndCooldown: 300000,
       });
 
       try {
